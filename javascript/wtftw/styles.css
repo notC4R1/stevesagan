@@ -1,0 +1,153 @@
+html,
+body {
+    margin: 0;
+    padding-right: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+}
+body {
+}
+
+#app-wrapper {
+    height: 100vh;
+}
+
+#grid-wrapper {
+    display: grid;
+    grid-template-columns: 200px repeat(3, 1fr);
+    grid-template-rows: 75px repeat(3, 1fr);
+    width: 100%;
+    height: 100%;
+}
+
+#left-nav-menu {
+    grid-column-start: 1;
+    grid-row: 1/5;
+    background-color: #677156;
+    display: flex;
+    flex-direction: column;
+}
+
+#left-nav-menu h1 {
+    align-self: center;
+}
+
+#left-nav-menu ul {
+    border-top: 1px solid black;
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0 0 0;
+}
+
+#left-nav-menu li {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+    margin: 0 15px 5px 15px;
+}
+
+#movie-area-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    grid-column: 2/5;
+    grid-row: 2/5;
+}
+
+.movie-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    width: 100%;
+}
+
+.movie-container:hover .movie-poster-container, .movie-container:hover .movie-data-container{
+    box-shadow: 10px 5px 30px 10px goldenrod;
+    transition: .5s;
+}
+
+.movie-poster-container{
+    height: 335px;
+    width: 225px;
+    background-color: whitesmoke;
+}
+
+.movie-data-container{
+    height: 335px;
+    width: 225px;
+    background-color: whitesmoke;
+}
+
+.movie-data-container ul{
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.movie-data-container li{
+    list-style: none;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.movie-data-container #movie_overview{
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-width: 20ch;
+    text-overflow: ellipsis;
+    color: red;
+}
+
+#movie1-area{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+ #movie2-area{
+    grid-column: 2/3;
+    grid-row: 1/2;
+ }
+
+#movie3-area {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+#movie4-area {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#movie5-area {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#movie6-area {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+#movie7-area {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+#movie8-area {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+#movie9-area {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}

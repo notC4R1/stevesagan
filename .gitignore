@@ -1,0 +1,6 @@
+.DS_Store
+secrets.py
+bin/
+lib/
+include/
+__pycache__
