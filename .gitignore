@@ -1,0 +1,11 @@
+**/secrets.py
+**/secrets.js
+**/config.json
+**/package.json
+**/package-lock.json
+
+**dota_stats/
+**wtftw/
+
+**node_modules/
+
