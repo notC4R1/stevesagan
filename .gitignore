@@ -1,17 +1,31 @@
-**/secrets.py
+### javascript
+###
+### files
+
 **/secrets.js
 **/config.json
 **/package.json
 **/package-lock.json
 
-**dota_stats/
+### directories
+
 **wtftw/
-
 **node_modules/
-**/.DS_Store
-**bin/
-**lib/python3.9/site-packages/
 
+
+### python
+###
+### files
+
+**/secrets.py
+**/.DS_Store
 **/pyvenv.cfg
 
+### directories
+
+**bin/
+**lib/python3.9/site-packages/
+**lib/
+**dota_stats/
 **python/
+**include/
