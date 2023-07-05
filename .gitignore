@@ -8,4 +8,10 @@
 **wtftw/
 
 **node_modules/
+**/.DS_Store
+**bin/
+**lib/python3.9/site-packages/
 
+**/pyvenv.cfg
+
+**python/
